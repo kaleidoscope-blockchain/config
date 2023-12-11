@@ -1,0 +1,57 @@
+{   
+    "// ----------------------- TODO : change the parameters below" : "-------------------------------",
+
+        "private_key"                           :   "",
+
+		"// WARNING : the private_key is the key for the watchtower, and NOT your wallet's private key" : "",
+
+        "host_name"                             :   "",
+
+		"// host_name example is : mywatchtower.mydomain.com"		: "",
+
+	    "watchtower_failure_alert_url"      :   "",
+
+		"// a url which will be called (POST) when the watchtower fails" : "",
+
+    "// ---------------------------------------------------------" : "-------------------------------",
+
+
+    "eth_websocket_url"         :   "",
+    "goerli_websocket_url"      :   "wss://...",
+    "sapolia_websocket_url"     :   "",
+    "currently_waching_l1"      :   "goerli",
+    "currently_watchcing_l2"    :   "wc",
+
+    "l2"                        :   {
+
+        "base"                      :   {
+            "websocket_url"                 :   "",
+            "rpc_url"                       :   "",
+            "node_rpc_url"                  :   "",
+            "l2oo_address"                  :   ""
+        },
+
+        "optimism"                  :   {
+            "websocket_url"                 :   "wss://...",
+            "rpc_url"                       :   "",
+            "node_rpc_url"                  :   "",
+            "l2oo_address"                  :   ""
+        },
+
+        "wc"                        :   {
+            "websocket_url"                 :   "",
+            "rpc_url"                       :   "http://3.108.227.185:8545/",
+            "node_rpc_url"                  :   "http://3.108.227.185:8547/",
+            "l2oo_address"                  :   "0x7075f279472fdf6cfba7611dbd97e9d4d632c50d"
+        },
+
+        "arbitrum"                  :   {
+
+        }
+    },
+
+    "bounty_manager_address"    :   "0x846F93b23b6FD14670024F42573e5600311b0C66",
+    "watchtower_retries"        :   5,
+
+    "operator_registry"         :   "0x80a62D3AC27867c240C6C30D5561954F437C78d2"
+}
