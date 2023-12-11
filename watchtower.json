@@ -17,7 +17,7 @@
 
 
     "eth_websocket_url"         :   "",
-    "goerli_websocket_url"      :   "wss://...",
+    "goerli_websocket_url"      :   "",
     "sapolia_websocket_url"     :   "",
     "currently_waching_l1"      :   "goerli",
     "currently_watchcing_l2"    :   "wc",
@@ -32,7 +32,7 @@
         },
 
         "optimism"                  :   {
-            "websocket_url"                 :   "wss://...",
+            "websocket_url"                 :   "",
             "rpc_url"                       :   "",
             "node_rpc_url"                  :   "",
             "l2oo_address"                  :   ""
