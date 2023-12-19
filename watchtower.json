@@ -50,8 +50,8 @@
         }
     },
 
-    "bounty_manager_address"    :   "0x846F93b23b6FD14670024F42573e5600311b0C66",
+    "bounty_manager_address"    :   "0x1BF313AADe1e1f76295943f40B558Eb13Db7aA99",
     "watchtower_retries"        :   5,
 
-    "operator_registry"         :   "0x80a62D3AC27867c240C6C30D5561954F437C78d2"
+    "operator_registry"         :   "0xF5432181B657A68622EbC993e1f52aA120ac5504"
 }
