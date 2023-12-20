@@ -8,6 +8,7 @@
         "host_name"                             :   "",
 
 		"// host_name example is : mywatchtower.mydomain.com"		: "",
+        "// It is recommended to set a hostname as it makes it easy for you to view your rewards via WitnessChain's watchtower dashboard"  : "",
 
 	    "watchtower_failure_alert_url"      :   "",
 
