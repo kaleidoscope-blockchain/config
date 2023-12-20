@@ -20,7 +20,7 @@
     "goerli_websocket_url"      :   "",
     "sapolia_websocket_url"     :   "",
     "currently_waching_l1"      :   "goerli",
-    "currently_watchcing_l2"    :   "wc",
+    "currently_watchcing_l2"    :   "optimism",
 
     "l2"                        :   {
 
@@ -28,21 +28,21 @@
             "websocket_url"                 :   "",
             "rpc_url"                       :   "",
             "node_rpc_url"                  :   "",
-            "l2oo_address"                  :   ""
+            "l2oo_address"                  :   "0x2A35891ff30313CcFa6CE88dcf3858bb075A2298"
         },
 
         "optimism"                  :   {
             "websocket_url"                 :   "",
             "rpc_url"                       :   "",
             "node_rpc_url"                  :   "",
-            "l2oo_address"                  :   ""
+            "l2oo_address"                  :   "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
         },
 
         "wc"                        :   {
             "websocket_url"                 :   "",
-            "rpc_url"                       :   "http://3.108.227.185:8545/",
-            "node_rpc_url"                  :   "http://3.108.227.185:8547/",
-            "l2oo_address"                  :   "0x7075f279472fdf6cfba7611dbd97e9d4d632c50d"
+            "rpc_url"                       :   "",
+            "node_rpc_url"                  :   "",
+            "l2oo_address"                  :   ""
         },
 
         "arbitrum"                  :   {
@@ -52,6 +52,6 @@
 
     "bounty_manager_address"    :   "0x1BF313AADe1e1f76295943f40B558Eb13Db7aA99",
     "watchtower_retries"        :   5,
-
+    "receipt_timeout"           :   300,
     "operator_registry"         :   "0xF5432181B657A68622EbC993e1f52aA120ac5504"
 }
