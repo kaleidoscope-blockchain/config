@@ -37,17 +37,6 @@
             "rpc_url"                       :   "",
             "node_rpc_url"                  :   "",
             "l2oo_address"                  :   "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
-        },
-
-        "wc"                        :   {
-            "websocket_url"                 :   "",
-            "rpc_url"                       :   "",
-            "node_rpc_url"                  :   "",
-            "l2oo_address"                  :   ""
-        },
-
-        "arbitrum"                  :   {
-
         }
     },
 
