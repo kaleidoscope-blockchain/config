@@ -54,5 +54,6 @@
     "bounty_manager_address"    :   "0x1BF313AADe1e1f76295943f40B558Eb13Db7aA99",
     "watchtower_retries"        :   5,
     "receipt_timeout"           :   300,
+    "gas_limit"                 :   3000000000,
     "operator_registry"         :   "0xF5432181B657A68622EbC993e1f52aA120ac5504"
 }
