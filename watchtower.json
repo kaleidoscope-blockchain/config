@@ -1,27 +1,24 @@
 {
     "// ----------------------- TODO : set the parameters below" : "-------------------------------",
 
-        "private_key"                           :   "",
+        "private_key"                           : "",
 
-                "// WARNING : the private_key is the key for the watchtower, and NOT your wallet's private key":"",
+                "// WARNING"                    : "the private_key is the key for the watchtower, and NOT your wallet's private key",
 
-        "host_name"                             :   "",
+        "host_name"                             : "",
 
-                "// host_name example is : mywatchtower.mydomain.com":"",
-                "// It is recommended to set it to view your rewards via WitnessChain's watchtower dashboard":"",
+                "// EXAMPLE"                    : "mywatchtower.mydomain.com",
+                "// RECOMMENDED"                : "to set host_name to view your rewards via WitnessChain's watchtower dashboard",
 
-         "watchtower_failure_alert_url"         :   "",
+         "watchtower_failure_alert_url"         : "",
 
-                "// a url which will be called (POST) when the watchtower fails" : "",
+                "// EXAMPLE"                    : "https://my-failure-alert/url",
+                "// RECOMMENDED"		: "to set it to a url which will be called (POST) when the watchtower fails",
 
     "// ---------------------------------------------------------" : "-------------------------------",
 
+    "goerli_websocket_url"      :   "",                "// TODO" : "set the L1 websocket URL",
 
-    "eth_websocket_url"         :   "",
-
-    "goerli_websocket_url"      :   "",                "// TODO : set the L1 websocket URL":"",
-
-    "sapolia_websocket_url"     :   "",
     "currently_waching_l1"      :   "goerli",
     "currently_watchcing_l2"    :   "optimism",
 
@@ -29,15 +26,15 @@
 
         "base"                      :   {
             "websocket_url"                 :   "",
-            "rpc_url"                       :   "",    "// TODO : set the op-geth's RPC URL":"",
-            "node_rpc_url"                  :   "",    "// TODO : set the op-node's RPC URL":"",
+            "rpc_url"                       :   "",    "// TODO" : "set the op-geth's RPC URL",
+            "node_rpc_url"                  :   "",    "// TODO" : "set the op-node's RPC URL",
             "l2oo_address"                  :   "0x2A35891ff30313CcFa6CE88dcf3858bb075A2298"
         },
 
         "optimism"                  :   {
             "websocket_url"                 :   "",
-            "rpc_url"                       :   "",    "// TODO : set the op-geth's RPC URL":"",
-            "node_rpc_url"                  :   "",    "// TODO : set the op-node's RPC URL":"",
+            "rpc_url"                       :   "",    "// TODO" : "set the op-geth's RPC URL",
+            "node_rpc_url"                  :   "",    "// TODO" : "set the op-node's RPC URL",
             "l2oo_address"                  :   "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
         }
     },
