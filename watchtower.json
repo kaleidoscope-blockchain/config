@@ -20,28 +20,28 @@
     "goerli_websocket_url"      :   "",                "// TODO" : "set the L1 websocket URL",
 
     "currently_waching_l1"      :   "goerli",
-    "currently_watchcing_l2"    :   "optimism",
 
     "l2"                        :   {
 
         "base"                      :   {
             "websocket_url"                 :   "",
-            "rpc_url"                       :   "",    "// TODO" : "set the op-geth's RPC URL",
-            "node_rpc_url"                  :   "",    "// TODO" : "set the op-node's RPC URL",
+            "op_geth_rpc_url"               :   "",    "// TODO" : "set the op-geth's RPC URL",
+            "op_node_rpc_url"               :   "",    "// TODO" : "set the op-node's RPC URL",
             "l2oo_address"                  :   "0x2A35891ff30313CcFa6CE88dcf3858bb075A2298"
         },
 
         "optimism"                  :   {
             "websocket_url"                 :   "",
-            "rpc_url"                       :   "",    "// TODO" : "set the op-geth's RPC URL",
-            "node_rpc_url"                  :   "",    "// TODO" : "set the op-node's RPC URL",
+            "op_geth_rpc_url"               :   "",    "// TODO" : "set the op-geth's RPC URL",
+            "op_node_rpc_url"               :   "",    "// TODO" : "set the op-node's RPC URL",
             "l2oo_address"                  :   "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
         }
     },
 
-    "bounty_manager_address"    :   "0x1BF313AADe1e1f76295943f40B558Eb13Db7aA99",
-    "watchtower_retries"        :   5,
-    "receipt_timeout"           :   300,
-    "gas_limit"                 :   3000000000,
-    "operator_registry"         :   "0xF5432181B657A68622EbC993e1f52aA120ac5504"
+    "alert_manager_address"              :   "0x215d9A0722f6602CBcE46981eAaFecc2B6c1a56E",
+    "diligence_proof_manager_address"    :   "0x1BF313AADe1e1f76295943f40B558Eb13Db7aA99",
+    "operator_registry"                  :   "0xF5432181B657A68622EbC993e1f52aA120ac5504",
+    "gas_limit"                          :   3000000000,
+    "receipt_timeout"                    :   300,
+    "watchtower_retries"                 :   5
 }
