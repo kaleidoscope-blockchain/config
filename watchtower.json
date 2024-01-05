@@ -8,7 +8,7 @@
         "host_name"                             : "",
 
                 "// EXAMPLE"                    : "mywatchtower.mydomain.com",
-                "// RECOMMENDED"                : "to set host_name to view your rewards via WitnessChain's watchtower dashboard",
+                "// RECOMMENDED"                : "to set host name to view your rewards via WitnessChain's watchtower dashboard",
 
          "watchtower_failure_alert_url"         : "",
 
