@@ -25,14 +25,12 @@
     "l2"                        :   {
 
         "base"                      :   {
-            "websocket_url"                 :   "",
             "rpc_url"                       :   "",    "// TODO" : "set the op-geth's RPC URL",
             "node_rpc_url"                  :   "",    "// TODO" : "set the op-node's RPC URL",
             "l2oo_address"                  :   "0x2A35891ff30313CcFa6CE88dcf3858bb075A2298"
         },
 
         "optimism"                  :   {
-            "websocket_url"                 :   "",
             "rpc_url"                       :   "",    "// TODO" : "set the op-geth's RPC URL",
             "node_rpc_url"                  :   "",    "// TODO" : "set the op-node's RPC URL",
             "l2oo_address"                  :   "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
