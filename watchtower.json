@@ -3,7 +3,7 @@
 
         "private_key"                           : "",
 
-                "// WARNING"                    : "the private_key is the key for the watchtower, and NOT your wallet's private key",
+                "// WARNING"                    : "the private key is the key for the watchtower, and NOT your wallet's private key",
 
         "host_name"                             : "",
 
