@@ -32,7 +32,7 @@
 
         "base"                      :   {
             "rpc_url"                       : "",    "// TODO" : "set the op-geth's RPC URL",
-                        "// EXAMPLE"        : "http://my-base-node:8595",
+                        "// EXAMPLE"        : "http://my-base-node:8545",
 
             "node_rpc_url"                  : "",    "// TODO" : "set the op-node's RPC URL",
                         "// EXAMPLE"        : "http://my-base-node:9545",
@@ -42,10 +42,10 @@
 
         "optimism"                  :   {
             "rpc_url"                       : "",    "// TODO" : "set the op-geth's RPC URL",
-                        "// EXAMPLE"        : "http://my-op-node:8545",
+                        "// EXAMPLE"        : "http://my-optimism-node:8545",
 
             "node_rpc_url"                  : "",    "// TODO" : "set the op-node's RPC URL",
-                        "// EXAMPLE"        : "http://my-op-node:9595",
+                        "// EXAMPLE"        : "http://my-optimism-node:9545",
 
             "l2oo_address"                  : "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
         }
