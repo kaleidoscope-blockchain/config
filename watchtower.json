@@ -8,7 +8,7 @@
                 "// EXAMPLE"                    : "abcdef0123456789abcdef01234567890abcdef0123456789abcdef012345678",
                 "// How to Generate one?"       : "You may use MetaMask or any other tool to generate one",
 
-                "// WARNING 1"                  : "This PRIVATE_key is for the identity of watchtower, and NOT operator's private key",
+                "// WARNING 1"                  : "This PRIVATE key is for the identity of watchtower, and NOT operator's private key",
                 "// WARNING 2"                  : "NEVER expose your operator's private key anywhere",
 
         "host_name"                             : "",
@@ -21,43 +21,43 @@
                 "// EXAMPLE"                    : "https://my-failure-alert/url",
                 "// RECOMMENDED"                : "to set it to a url which will be called (POST) when the watchtower fails",
 
-    "eth_testnet_websocket_url"                 : "",    "// TODO" : "set the L1 websocket URL",
+         "eth_testnet_websocket_url"            : "",    "// TODO" : "set the L1 websocket URL",
 
                 "// EXAMPLE"                    : "wss://my-L1-node -OR- ws://my-L1-node",
 
-    "currently_watching_l1"                      : "eth_testnet",
-    "eth_testnet_chain_id"                      : 11155111,
-    "currently_watching_l2"                    : "optimism",
+         "currently_watching_l1"                : "eth_testnet",
+         "eth_testnet_chain_id"                 : 11155111,
+         "currently_watching_l2"                : "optimism",
 
-    "l2"                        :   {
+         "l2"                                   : {
 
-        "base"                      :   {
-            "chain_id"                      : 84532,
-            "op_geth_rpc_url"               : "",    "// TODO" : "set the op-geth's RPC URL",
-                        "// EXAMPLE"        : "http://my-base-node:8545",
+                   "base"                       : {
+                         "chain_id"             : 84532,
+                         "op_geth_rpc_url"      : "",    "// TODO" : "set the op-geth's RPC URL",
+                             "// EXAMPLE"       : "http://my-base-node:8545",
 
-            "op_node_rpc_url"               : "",    "// TODO" : "set the op-node's RPC URL",
-                        "// EXAMPLE"        : "http://my-base-node:9545",
+                         "op_node_rpc_url"      : "",    "// TODO" : "set the op-node's RPC URL",
+                             "// EXAMPLE"       : "http://my-base-node:9545",
 
-            "l2oo_address"                  : "0x84457ca9D0163FbC4bbfe4Dfbb20ba46e48DF254"
-        },
+                         "l2oo_address"         : "0x84457ca9D0163FbC4bbfe4Dfbb20ba46e48DF254"
+                    },
 
-        "optimism"                  :   {
-            "chain_id"                      : 11155420,
-            "op_geth_rpc_url"               : "",    "// TODO" : "set the op-geth's RPC URL",
-                        "// EXAMPLE"        : "http://my-optimism-node:8545",
+                    "optimism"                  :   {
+                         "chain_id"             : 11155420,
+                         "op_geth_rpc_url"      : "",    "// TODO" : "set the op-geth's RPC URL",
+                             "// EXAMPLE"       : "http://my-optimism-node:8545",
 
-            "op_node_rpc_url"               : "",    "// TODO" : "set the op-node's RPC URL",
-                        "// EXAMPLE"        : "http://my-optimism-node:9545",
+                         "op_node_rpc_url"      : "",    "// TODO" : "set the op-node's RPC URL",
+                             "// EXAMPLE"       : "http://my-optimism-node:9545",
 
-            "l2oo_address"                  : "0x90E9c4f8a994a250F6aEfd61CAFb4F2e895D458F"
-        }
-    },
+                         "l2oo_address"         : "0x90E9c4f8a994a250F6aEfd61CAFb4F2e895D458F"
+                    }
+         },
 
-    "alert_manager_address"              :   "0xEd36b8261849AEF348165BC57543d1262d10bBb0",
-    "diligence_proof_manager_address"    :   "0x01dA4EB0e4AB68596e563d8b1B79041E1303fa85",
-    "operator_registry"                  :   "0x10EB07b5E03BAe8dd1B77568c026742eeb57B6F5",
-    "rollup_registry"                    :   "0x925841a7A81fed0D4Df12d2beda5093c89970B9d",
-    "receipt_timeout"                    :   300,
-    "watchtower_retries"                 :   5
+         "alert_manager_address"                : "0xEd36b8261849AEF348165BC57543d1262d10bBb0",
+         "diligence_proof_manager_address"      : "0x01dA4EB0e4AB68596e563d8b1B79041E1303fa85",
+         "operator_registry"                    : "0x10EB07b5E03BAe8dd1B77568c026742eeb57B6F5",
+         "rollup_registry"                      : "0x925841a7A81fed0D4Df12d2beda5093c89970B9d",
+         "receipt_timeout"                      : 300,
+         "watchtower_retries"                   : 5
 }
