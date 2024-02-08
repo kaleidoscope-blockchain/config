@@ -1,47 +1,62 @@
 {
-    "// ----------------------- TODO : set the parameters below" : "-------------------------------",
+       "// ---- This is a template config file for watchtower            " : "-----",
+       "// ---- Please fill the mandatory entries below marked with TODO " : "-----",
+       "// ---- DO NOT Delete any entries in this file                   " : "-----",
 
-        "private_key"                           : "",
+        "private_key"                           : "",    "// TODO" : "set the private key for the watchtower",
 
-                "// WARNING"                    : "the private_key is the key for the watchtower, and NOT your wallet's private key",
+                "// EXAMPLE"                    : "abcdef0123456789abcdef01234567890abcdef0123456789abcdef012345678",
+                "// How to Generate one?"       : "You may use MetaMask or any other tool to generate one",
+
+                "// WARNING 1"                  : "This PRIVATE_key is for the identity of watchtower, and NOT operator's private key",
+                "// WARNING 2"                  : "NEVER expose your operator's private key anywhere",
 
         "host_name"                             : "",
 
-                "// EXAMPLE"                    : "mywatchtower.mydomain.com",
-                "// RECOMMENDED"                : "to set host_name to view your rewards via WitnessChain's watchtower dashboard",
+                "// EXAMPLE"                    : "my-watchtower.my-domain.com",
+                "// RECOMMENDED"                : "to set host name to view your rewards via WitnessChain's watchtower dashboard",
 
          "watchtower_failure_alert_url"         : "",
 
                 "// EXAMPLE"                    : "https://my-failure-alert/url",
-                "// RECOMMENDED"		: "to set it to a url which will be called (POST) when the watchtower fails",
+                "// RECOMMENDED"                : "to set it to a url which will be called (POST) when the watchtower fails",
 
-    "// ---------------------------------------------------------" : "-------------------------------",
+    "eth_testnet_websocket_url"                 : "",    "// TODO" : "set the L1 websocket URL",
 
-    "goerli_websocket_url"      :   "",                "// TODO" : "set the L1 websocket URL",
+                "// EXAMPLE"                    : "wss://my-L1-node -OR- ws://my-L1-node",
 
-    "currently_waching_l1"      :   "goerli",
+    "currently_waching_l1"                      : "eth_testnet",
+    "eth_testnet_chain_id"                      : 11155111,
+    "currently_watchcing_l2"                    : "optimism",
 
     "l2"                        :   {
 
         "base"                      :   {
-            "websocket_url"                 :   "",
-            "op_geth_rpc_url"               :   "",    "// TODO" : "set the op-geth's RPC URL",
-            "op_node_rpc_url"               :   "",    "// TODO" : "set the op-node's RPC URL",
-            "l2oo_address"                  :   "0x2A35891ff30313CcFa6CE88dcf3858bb075A2298"
+            "chain_id"                      : "84532",
+            "op_geth_rpc_url"               : "",    "// TODO" : "set the op-geth's RPC URL",
+                        "// EXAMPLE"        : "http://my-base-node:8545",
+
+            "op_node_rpc_url"               : "",    "// TODO" : "set the op-node's RPC URL",
+                        "// EXAMPLE"        : "http://my-base-node:9545",
+
+            "l2oo_address"                  : "0x84457ca9D0163FbC4bbfe4Dfbb20ba46e48DF254"
         },
 
         "optimism"                  :   {
-            "websocket_url"                 :   "",
-            "op_geth_rpc_url"               :   "",    "// TODO" : "set the op-geth's RPC URL",
-            "op_node_rpc_url"               :   "",    "// TODO" : "set the op-node's RPC URL",
-            "l2oo_address"                  :   "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
+            "chain_id"                      : 11155420,
+            "op_geth_rpc_url"                       : "",    "// TODO" : "set the op-geth's RPC URL",
+                        "// EXAMPLE"        : "http://my-optimism-node:8545",
+
+            "op_node_rpc_url"                  : "",    "// TODO" : "set the op-node's RPC URL",
+                        "// EXAMPLE"        : "http://my-optimism-node:9545",
+
+            "l2oo_address"                  : "0x90E9c4f8a994a250F6aEfd61CAFb4F2e895D458F"
         }
     },
 
-    "alert_manager_address"              :   "0x215d9A0722f6602CBcE46981eAaFecc2B6c1a56E",
-    "diligence_proof_manager_address"    :   "0x1BF313AADe1e1f76295943f40B558Eb13Db7aA99",
-    "operator_registry"                  :   "0xF5432181B657A68622EbC993e1f52aA120ac5504",
-    "gas_limit"                          :   3000000000,
+    "alert_manager_address"              :   "0xEd36b8261849AEF348165BC57543d1262d10bBb0",
+    "diligence_proof_manager_address"    :   "0x01dA4EB0e4AB68596e563d8b1B79041E1303fa85",
+    "operator_registry"                  :   "0x10EB07b5E03BAe8dd1B77568c026742eeb57B6F5",
     "receipt_timeout"                    :   300,
     "watchtower_retries"                 :   5
 }
