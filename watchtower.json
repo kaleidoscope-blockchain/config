@@ -35,11 +35,9 @@
 
                          "chain_id"             : 84532,
 
-                         "op_geth_rpc_url"      : "",    "// TODO" : "set the op-geth's RPC URL",
-                             "// EXAMPLE"       : "http://my-base-node:8545",
+                         "op_geth_rpc_url"      : "http://my-base-node:8545",        "// TODO" : "set the op-geth's RPC URL",
 
-                         "op_node_rpc_url"      : "",    "// TODO" : "set the op-node's RPC URL",
-                             "// EXAMPLE"       : "http://my-base-node:9545",
+                         "op_node_rpc_url"      : "http://my-base-node:9545",        "// TODO" : "set the op-node's RPC URL",
 
                          "l2oo_address"         : "0x84457ca9D0163FbC4bbfe4Dfbb20ba46e48DF254"
                     },
@@ -48,11 +46,9 @@
 
                          "chain_id"             : 11155420,
 
-                         "op_geth_rpc_url"      : "",    "// TODO" : "set the op-geth's RPC URL",
-                             "// EXAMPLE"       : "http://my-optimism-node:8545",
+                         "op_geth_rpc_url"      : "http://my-optimism-node:8545",    "// TODO" : "set the op-geth's RPC URL",
 
-                         "op_node_rpc_url"      : "",    "// TODO" : "set the op-node's RPC URL",
-                             "// EXAMPLE"       : "http://my-optimism-node:9545",
+                         "op_node_rpc_url"      : "http://my-optimism-node:9545",    "// TODO" : "set the op-node's RPC URL",
 
                          "l2oo_address"         : "0x90E9c4f8a994a250F6aEfd61CAFb4F2e895D458F"
                     }
