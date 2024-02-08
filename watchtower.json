@@ -32,7 +32,9 @@
          "l2"                                   : {
 
                    "base"                       : {
+
                          "chain_id"             : 84532,
+
                          "op_geth_rpc_url"      : "",    "// TODO" : "set the op-geth's RPC URL",
                              "// EXAMPLE"       : "http://my-base-node:8545",
 
@@ -43,7 +45,9 @@
                     },
 
                     "optimism"                  :   {
+
                          "chain_id"             : 11155420,
+
                          "op_geth_rpc_url"      : "",    "// TODO" : "set the op-geth's RPC URL",
                              "// EXAMPLE"       : "http://my-optimism-node:8545",
 
