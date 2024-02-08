@@ -21,39 +21,42 @@
                 "// EXAMPLE"                    : "https://my-failure-alert/url",
                 "// RECOMMENDED"                : "to set it to a url which will be called (POST) when the watchtower fails",
 
-    "goerli_websocket_url"                      : "",    "// TODO" : "set the L1 websocket URL",
+    "eth_testnet_websocket_url"                 : "",    "// TODO" : "set the L1 websocket URL",
 
                 "// EXAMPLE"                    : "wss://my-L1-node -OR- ws://my-L1-node",
 
-    "currently_waching_l1"                      : "goerli",
+    "currently_waching_l1"                      : "eth_testnet",
+    "eth_testnet_chain_id"                      : 11155111,
     "currently_watchcing_l2"                    : "optimism",
 
     "l2"                        :   {
 
         "base"                      :   {
-            "rpc_url"                       : "",    "// TODO" : "set the op-geth's RPC URL",
+            "chain_id"                      : "84532",
+            "op_geth_rpc_url"               : "",    "// TODO" : "set the op-geth's RPC URL",
                         "// EXAMPLE"        : "http://my-base-node:8545",
 
-            "node_rpc_url"                  : "",    "// TODO" : "set the op-node's RPC URL",
+            "op_node_rpc_url"               : "",    "// TODO" : "set the op-node's RPC URL",
                         "// EXAMPLE"        : "http://my-base-node:9545",
 
-            "l2oo_address"                  : "0x2A35891ff30313CcFa6CE88dcf3858bb075A2298"
+            "l2oo_address"                  : "0x84457ca9D0163FbC4bbfe4Dfbb20ba46e48DF254"
         },
 
         "optimism"                  :   {
-            "rpc_url"                       : "",    "// TODO" : "set the op-geth's RPC URL",
+            "chain_id"                      : 11155420,
+            "op_geth_rpc_url"                       : "",    "// TODO" : "set the op-geth's RPC URL",
                         "// EXAMPLE"        : "http://my-optimism-node:8545",
 
-            "node_rpc_url"                  : "",    "// TODO" : "set the op-node's RPC URL",
+            "op_node_rpc_url"                  : "",    "// TODO" : "set the op-node's RPC URL",
                         "// EXAMPLE"        : "http://my-optimism-node:9545",
 
-            "l2oo_address"                  : "0xE6Dfba0953616Bacab0c9A8ecb3a9BBa77FC15c0"
+            "l2oo_address"                  : "0x90E9c4f8a994a250F6aEfd61CAFb4F2e895D458F"
         }
     },
 
-    "bounty_manager_address"    :   "0x1BF313AADe1e1f76295943f40B558Eb13Db7aA99",
-    "watchtower_retries"        :   5,
-    "receipt_timeout"           :   300,
-    "gas_limit"                 :   3000000000,
-    "operator_registry"         :   "0xF5432181B657A68622EbC993e1f52aA120ac5504"
+    "alert_manager_address"              :   "0xEd36b8261849AEF348165BC57543d1262d10bBb0",
+    "diligence_proof_manager_address"    :   "0x01dA4EB0e4AB68596e563d8b1B79041E1303fa85",
+    "operator_registry"                  :   "0x10EB07b5E03BAe8dd1B77568c026742eeb57B6F5",
+    "receipt_timeout"                    :   300,
+    "watchtower_retries"                 :   5
 }
