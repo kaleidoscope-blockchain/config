@@ -25,9 +25,9 @@
 
                 "// EXAMPLE"                    : "wss://my-L1-node -OR- ws://my-L1-node",
 
-    "currently_waching_l1"                      : "eth_testnet",
+    "currently_watching_l1"                      : "eth_testnet",
     "eth_testnet_chain_id"                      : 11155111,
-    "currently_watchcing_l2"                    : "optimism",
+    "currently_watching_l2"                    : "optimism",
 
     "l2"                        :   {
 
@@ -57,6 +57,7 @@
     "alert_manager_address"              :   "0xEd36b8261849AEF348165BC57543d1262d10bBb0",
     "diligence_proof_manager_address"    :   "0x01dA4EB0e4AB68596e563d8b1B79041E1303fa85",
     "operator_registry"                  :   "0x10EB07b5E03BAe8dd1B77568c026742eeb57B6F5",
+    "rollup_registry"                    :   "0x925841a7A81fed0D4Df12d2beda5093c89970B9d",
     "receipt_timeout"                    :   300,
     "watchtower_retries"                 :   5
 }
