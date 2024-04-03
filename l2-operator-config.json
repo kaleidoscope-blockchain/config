@@ -7,6 +7,6 @@
   "operator_private_key": "<operator-private-key>",
   "operator_registry_address": "<operatorRegistry-contract-address>",
   "eth_rpc_url": "<rpc-url>",
-  "chain_id": "<chainID>",
-  "gas_limit": "<gas-limit>"
+  "chain_id": <chainID>,
+  "gas_limit": <gas-limit>
 }
