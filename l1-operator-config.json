@@ -9,6 +9,6 @@
   "witnesshub_address": "<WitnessHub-contract-address>",
   "avs_directory_address": "<AVSDirectory-contract-address>",
   "eth_rpc_url": "<rpc-url>",
-  "chain_id": "<chainID>",
-  "gas_limit": "<gas-limit>"
+  "chain_id": <chainID>,
+  "gas_limit": <gas-limit>
 }
