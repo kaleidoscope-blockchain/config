@@ -1,0 +1,20 @@
+{   
+    "eth_websocket_url"                 :   "ws://3.81.9.138:8547",
+    "eth_chain_id"                      :   1,
+    "contract_chain_websocket_url"      :   "https://rpc.witnesschain.com",
+    "diligence_proof_manager_address"   :   "0x0384E6249E2aF51E58662eBCf70E0C28482C73d4",
+    "operator_registry_address"         :   "0xEf1a89841fd189ba28e780A977ca70eb1A5e985D",
+    "settlement_manager_address"        :   "0xD25c2c5802198CB8541987b73A8db4c9BCaE5cC7",
+    "delegation_manager_address"        :   "0x39053D51B77DC0d36036Fc1fCc8Cb819df8Ef37A",
+    "num_retries"                       :   5,
+    "receipt_timeout"                   :   300,
+    "submit_interval_in_l1_blocks"      :   21600,
+    "aggregator_failure_alert_url"      :   "",
+    "pod_margin"                        :   6300,
+    "db"                                :   {
+    "host"                                      :   "database-1.chccuyia04ie.us-east-1.rds.amazonaws.com",
+    "username"                                  :   "aggregator",
+    "port"                                      :   5432,
+    "db_name"                                   :   "aggregator"
+                                            }
+}
